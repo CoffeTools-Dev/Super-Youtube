@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade - Super YouTube</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            margin: -20px -20px 40px -20px;
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .update-date {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+        
+        h2 {
+            color: #667eea;
+            margin-top: 40px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #667eea;
+        }
+        
+        h3 {
+            color: #764ba2;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+        
+        .summary-box {
+            background: #f0f4ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+        
+        .summary-box h3 {
+            margin-top: 0;
+            color: #667eea;
+        }
+        
+        .check-list {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .check-list li {
+            padding: 8px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+        
+        .check-list li:before {
+            content: "✅";
+            position: absolute;
+            left: 0;
+        }
+        
+        .cross-list li:before {
+            content: "❌";
+        }
+        
+        .warning-box {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        .info-box {
+            background: #e7f3ff;
+            border-left: 4px solid #2196F3;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        table th,
+        table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        table th {
+            background: #667eea;
+            color: white;
+        }
+        
+        table tr:hover {
+            background: #f5f5f5;
+        }
+        
+        .contact-box {
+            background: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        
+        .contact-box a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 40px;
+            border-top: 2px solid #eee;
+            color: #666;
+        }
+        
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+        }
+        
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+            
+            header {
+                margin: -10px -10px 30px -10px;
+                padding: 30px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎬 Super YouTube</h1>
+            <h2 style="color: white; border: none; margin: 10px 0;">Política de Privacidade</h2>
+            <div class="update-date">Desenvolvido por CoffeTools</div>
+            <div class="update-date">Última atualização: 09 de Novembro de 2025 • Versão 1.0</div>
+        </header>
+
+        <div class="summary-box">
+            <h3>📋 Resumo Rápido</h3>
+            <ul class="check-list">
+                <li><strong>O que coletamos:</strong> Suas preferências de configuração e listas de bloqueio</li>
+                <li><strong>Onde ficam:</strong> Armazenados APENAS localmente no seu navegador</li>
+                <li><strong>Compartilhamos?</strong> NUNCA compartilhamos com terceiros</li>
+                <li><strong>Vendemos?</strong> NUNCA vendemos seus dados</li>
+            </ul>
+            <ul class="check-list cross-list">
+                <li>Não coletamos histórico de navegação</li>
+                <li>Não coletamos dados pessoais identificáveis</li>
+                <li>Não rastreamos vídeos assistidos</li>
+            </ul>
+        </div>
+
+        <h2>1. Introdução</h2>
+        <p>A extensão <strong>Super YouTube</strong> desenvolvida por <strong>CoffeTools</strong> respeita sua privacidade. Esta Política de Privacidade explica quais dados coletamos, como os usamos e seus direitos em relação a essas informações.</p>
+        <p><strong>Super YouTube</strong> é uma extensão de navegador que adiciona recursos avançados ao YouTube, melhorando sua experiência de navegação e visualização.</p>
+
+        <h2>2. Dados Coletados</h2>
+        
+        <h3>2.1 Configurações da Extensão</h3>
+        <p><strong>O que é:</strong> Suas preferências de funcionalidades (ativadas/desativadas)</p>
+        <div class="info-box">
+            <strong>Exemplos:</strong>
+            <ul>
+                <li>Loop de vídeo: Ativado</li>
+                <li>Qualidade padrão: 1080p</li>
+                <li>Velocidade padrão: 1.25x</li>
+                <li>Ocultar comentários: Ativado</li>
+            </ul>
+        </div>
+        <p><strong>Como usamos:</strong> Para lembrar suas preferências entre sessões</p>
+        <p><strong>Onde é armazenado:</strong> <code>chrome.storage.sync</code> (sincronização entre seus dispositivos)</p>
+
+        <h3>2.2 Listas de Bloqueio</h3>
+        <p><strong>O que é:</strong> Palavras-chave e canais que você escolheu bloquear</p>
+        <div class="info-box">
+            <strong>Exemplos:</strong>
+            <ul>
+                <li>Palavras-chave bloqueadas: "clickbait", "spam"</li>
+                <li>Canais bloqueados: "Canal Indesejado"</li>
+            </ul>
+        </div>
+        <p><strong>Como usamos:</strong> Para filtrar conteúdo indesejado no YouTube</p>
+        <p><strong>Onde é armazenado:</strong> <code>chrome.storage.sync</code></p>
+
+        <h2>3. O Que NÃO Coletamos</h2>
+        <ul class="check-list cross-list">
+            <li><strong>Histórico de Navegação:</strong> Não rastreamos quais páginas você visita</li>
+            <li><strong>Vídeos Assistidos:</strong> Não sabemos quais vídeos você assiste</li>
+            <li><strong>Dados de Login:</strong> Não acessamos suas credenciais do Google/YouTube</li>
+            <li><strong>Informações Pessoais:</strong> Não coletamos nome, email, endereço, telefone</li>
+            <li><strong>Dados Financeiros:</strong> Não acessamos informações de pagamento</li>
+            <li><strong>Localização:</strong> Não rastreamos sua localização geográfica</li>
+            <li><strong>Análises/Telemetria:</strong> Não enviamos dados de uso para análise</li>
+            <li><strong>Cookies de Terceiros:</strong> Não criamos ou modificamos cookies</li>
+        </ul>
+
+        <h2>4. Como Usamos Seus Dados</h2>
+        
+        <h3>4.1 Propósito Único</h3>
+        <p>Todos os dados coletados são usados EXCLUSIVAMENTE para:</p>
+        <ul class="check-list">
+            <li>Fornecer as funcionalidades da extensão</li>
+            <li>Lembrar suas preferências</li>
+            <li>Melhorar sua experiência no YouTube</li>
+        </ul>
+
+        <h3>4.2 Não Usamos Para:</h3>
+        <ul class="check-list cross-list">
+            <li>Vender dados a terceiros</li>
+            <li>Criar perfis de usuário</li>
+            <li>Anúncios personalizados</li>
+            <li>Rastreamento entre sites</li>
+            <li>Análise de comportamento</li>
+            <li>Mineração de dados</li>
+        </ul>
+
+        <h2>5. Compartilhamento de Dados</h2>
+        
+        <h3>5.1 Com Terceiros</h3>
+        <div class="warning-box">
+            <strong>NUNCA compartilhamos seus dados com terceiros.</strong>
+        </div>
+        <ul class="check-list cross-list">
+            <li>Não vendemos dados</li>
+            <li>Não compartilhamos com anunciantes</li>
+            <li>Não compartilhamos com corretores de dados</li>
+            <li>Não compartilhamos com redes sociais</li>
+        </ul>
+
+        <h3>5.2 Com Serviços Externos</h3>
+        <p><strong>SponsorBlock API:</strong></p>
+        <ul>
+            <li>Quando "Pular Patrocínios" está ativado, consultamos a API do SponsorBlock</li>
+            <li>Enviamos APENAS o ID do vídeo do YouTube (informação pública)</li>
+            <li>NÃO enviamos suas preferências ou dados pessoais</li>
+            <li>SponsorBlock: <a href="https://sponsor.ajay.app/privacy" target="_blank">política de privacidade</a></li>
+        </ul>
+
+        <h2>6. Armazenamento de Dados</h2>
+        
+        <h3>6.1 Onde Seus Dados Ficam</h3>
+        <ul class="check-list">
+            <li><strong>Local:</strong> Armazenados no seu navegador via <code>chrome.storage.sync</code></li>
+            <li><strong>Sincronização:</strong> Google sincroniza entre seus dispositivos (se logado)</li>
+            <li><strong>Controle:</strong> Você tem controle total via configurações do Chrome</li>
+        </ul>
+
+        <h3>6.2 Segurança</h3>
+        <ul class="check-list">
+            <li>Dados armazenados localmente (não em nossos servidores)</li>
+            <li>Protegidos pelas medidas de segurança do Chrome</li>
+            <li>Sincronização criptografada pelo Google</li>
+            <li>Não expomos dados publicamente</li>
+        </ul>
+
+        <h2>7. Suas Escolhas e Direitos</h2>
+        
+        <h3>7.1 Controle Sobre Seus Dados</h3>
+        <p>Você pode:</p>
+        <ul class="check-list">
+            <li>Ver suas configurações: Clique no ícone da extensão</li>
+            <li>Modificar configurações: Ative/desative funcionalidades</li>
+            <li>Excluir listas de bloqueio: Limpe as listas manualmente</li>
+            <li>Redefinir tudo: Desinstale e reinstale a extensão</li>
+        </ul>
+
+        <h3>7.2 Excluir Dados</h3>
+        <p>Para excluir todos os dados:</p>
+        <ol>
+            <li><strong>Opção 1:</strong> Desinstale a extensão</li>
+            <li><strong>Opção 2:</strong> Limpe dados do site no Chrome (<code>chrome://settings/content/all</code>)</li>
+        </ol>
+
+        <h2>8. Permissões Solicitadas</h2>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Permissão</th>
+                    <th>Por Que Precisamos</th>
+                    <th>O Que Acessamos</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>storage</code></td>
+                    <td>Salvar configurações</td>
+                    <td>Apenas dados da extensão</td>
+                </tr>
+                <tr>
+                    <td><code>activeTab</code></td>
+                    <td>Modificar página do YouTube</td>
+                    <td>Aba atual do YouTube</td>
+                </tr>
+                <tr>
+                    <td><code>scripting</code></td>
+                    <td>Injetar funcionalidades</td>
+                    <td>Apenas youtube.com</td>
+                </tr>
+                <tr>
+                    <td><code>host_permissions</code></td>
+                    <td>Funcionar no YouTube</td>
+                    <td>Apenas youtube.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>9. Uso Limitado (Limited Use)</h2>
+        <div class="info-box">
+            <p>Em conformidade com a <strong>Política de Dados do Usuário da Chrome Web Store</strong>:</p>
+            <ul class="check-list">
+                <li>Usamos dados apenas para o propósito declarado</li>
+                <li>Não vendemos dados de usuários</li>
+                <li>Não usamos dados para publicidade personalizada</li>
+                <li>Não transferimos dados para corretores de dados</li>
+                <li>Não usamos dados para análise de crédito</li>
+            </ul>
+            <p style="margin-top: 15px; font-style: italic;">
+                "O uso de informações recebidas das APIs do Google estará em conformidade com a 
+                Política de Dados do Usuário da Chrome Web Store, incluindo os requisitos de Uso Limitado."
+            </p>
+        </div>
+
+        <h2>10. Privacidade de Crianças</h2>
+        <p>Super YouTube não coleta intencionalmente dados de menores de 13 anos. Se você acredita que coletamos inadvertidamente dados de uma criança, entre em contato conosco.</p>
+
+        <h2>11. Cookies e Rastreamento</h2>
+        <ul class="check-list cross-list">
+            <li>Não criamos cookies</li>
+            <li>Não modificamos cookies do YouTube</li>
+            <li>Não usamos cookies de terceiros</li>
+            <li>Não rastreamos sua navegação</li>
+            <li>Não usamos pixels de rastreamento</li>
+            <li>Não usamos Google Analytics</li>
+        </ul>
+
+        <h2>12. Alterações na Política</h2>
+        <p>Se fizermos alterações materiais nesta política:</p>
+        <ol>
+            <li>Atualizaremos a data "Última atualização"</li>
+            <li>Notificaremos via atualização da extensão</li>
+            <li>Postaremos aviso na Chrome Web Store</li>
+        </ol>
+
+        <h2>13. Conformidade Legal</h2>
+        
+        <h3>13.1 LGPD (Brasil)</h3>
+        <p>Estamos em conformidade com a Lei Geral de Proteção de Dados (Lei nº 13.709/2018):</p>
+        <ul class="check-list">
+            <li>Minimização de dados</li>
+            <li>Finalidade específica</li>
+            <li>Transparência</li>
+            <li>Segurança</li>
+            <li>Direitos dos titulares</li>
+        </ul>
+
+        <h3>13.2 GDPR (Europa)</h3>
+        <p>Se você está na UE, seus direitos incluem:</p>
+        <ul>
+            <li>Acesso aos seus dados</li>
+            <li>Retificação de dados</li>
+            <li>Exclusão de dados ("direito ao esquecimento")</li>
+            <li>Portabilidade de dados</li>
+            <li>Restrição de processamento</li>
+        </ul>
+        <p><em>Nota: Como não coletamos dados identificáveis, a maioria desses direitos não se aplica.</em></p>
+
+        <h2>14. Contato</h2>
+        <div class="contact-box">
+            <h3>Dúvidas Sobre Privacidade?</h3>
+            <p>Se você tiver dúvidas sobre esta Política de Privacidade:</p>
+            <ul>
+                <li>📧 <strong>Email:</strong> <a href="mailto:support@coffetools.dev">support@coffetools.dev</a></li>
+                <li>💬 <strong>GitHub:</strong> <a href="https://github.com/CoffeTools-Dev/Super-Youtube" target="_blank">github.com/CoffeTools-Dev/Super-Youtube</a></li>
+                <li>👨‍💻 <strong>Desenvolvedor:</strong> CoffeTools</li>
+            </ul>
+            <p style="margin-top: 15px;">Para solicitar acesso, correção ou exclusão de dados, entre em contato por email. Responderemos em até 30 dias.</p>
+        </div>
+
+        <h2>15. Declaração Final</h2>
+        <div class="summary-box">
+            <p><strong>Super YouTube</strong> é uma extensão open-source focada em privacidade. Não coletamos dados para fins comerciais, não vendemos informações e não rastreamos usuários.</p>
+            <h3>Nosso compromisso:</h3>
+            <ul class="check-list">
+                <li>🔒 Privacidade em primeiro lugar</li>
+                <li>👁️ Transparência total</li>
+                <li>✨ Código aberto</li>
+                <li>🚫 Zero coleta desnecessária</li>
+                <li>💪 Controle do usuário</li>
+            </ul>
+        </div>
+
+        <h2>16. Aceitação</h2>
+        <p>Ao instalar e usar a extensão Super YouTube, você reconhece que leu, compreendeu e concorda com esta Política de Privacidade.</p>
+        <div class="warning-box">
+            <strong>Se você não concorda com esta política, por favor, não instale ou desinstale a extensão.</strong>
+        </div>
+
+        <footer>
+            <p><strong>Última atualização:</strong> 09 de Novembro de 2025</p>
+            <p><strong>Versão da Extensão:</strong> 1.8.2 • <strong>Versão da Política:</strong> 1.0</p>
+            <p><strong>Desenvolvedor:</strong> CoffeTools</p>
+            <p style="margin-top: 20px;">Feito com ❤️ para melhorar sua experiência no YouTube, respeitando sua privacidade.</p>
+        </footer>
+    </div>
+</body>
+</html>
